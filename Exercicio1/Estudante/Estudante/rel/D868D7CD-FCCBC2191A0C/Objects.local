@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="EB7CAAA4-D68C-2B7B-5C2B-2CA99A8C8505" name="Endereço" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="A386B5B1-7BD6-602E-B766-B5A1E5FF057C" name="Estudante" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="61FE7AB5-BB90-260E-BCFB-06F274873223" name="Nome" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

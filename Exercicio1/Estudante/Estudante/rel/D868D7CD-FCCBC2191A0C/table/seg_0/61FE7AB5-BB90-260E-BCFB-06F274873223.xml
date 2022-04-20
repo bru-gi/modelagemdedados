@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61FE7AB5-BB90-260E-BCFB-06F274873223" name="Nome">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:13:09 UTC</createdTime>
+<generatorID>CD866A3D-0FA4-7116-F71E-1591166B3677</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Primeiro" id="C1D8E2DE-8823-9191-B4EA-E389DB70C620">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:13:09 UTC</createdTime>
+<generatorID>03B2CE95-8DDD-8969-1950-B526E2B1C803</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ultimo" id="AE390AF1-3987-55BC-7368-8ADE219A20C5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:13:09 UTC</createdTime>
+<generatorID>12AA7D85-5587-2717-5BCE-40E61F614C75</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

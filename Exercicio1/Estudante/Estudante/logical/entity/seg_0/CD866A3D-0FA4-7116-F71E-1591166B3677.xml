@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD866A3D-0FA4-7116-F71E-1591166B3677" name="Nome">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:09:12 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Primeiro" id="03B2CE95-8DDD-8969-1950-B526E2B1C803">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:09:20 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ultimo" id="12AA7D85-5587-2717-5BCE-40E61F614C75">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:09:46 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

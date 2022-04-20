@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D8F5A92-B154-E399-B87D-1CB2E09CAE8E" name="Tipo_de_avião">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>8A7E6F52-B41C-69FB-D511-B0149DD2009D</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome_tipo" id="B3C6BB21-92D1-51B9-2938-5A7FB34EE970">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>485B5B5B-D816-600A-B17D-476478AE95CE</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa" id="F5600964-5557-9EC2-9B07-3E6791C4884C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>8200F469-5AD1-F9F8-2976-3FE5A30D81C2</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Configurações" id="81A2167B-9550-29D4-725B-2293C932063A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>627F8ED0-392D-1FEB-432D-B19917EEC437</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="D9FB8EB7-EA8A-5BD4-E6AE-B459EB4F31B3" name="Aeroporto" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6FBA6D11-51DA-B9A1-CEBE-2F2CA2BE5F5A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8A7E6F52-B41C-69FB-D511-B0149DD2009D" name="Tipo de avião" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6FBA6D11-51DA-B9A1-CEBE-2F2CA2BE5F5A" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

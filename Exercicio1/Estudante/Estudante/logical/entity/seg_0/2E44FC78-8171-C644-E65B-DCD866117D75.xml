@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E44FC78-8171-C644-E65B-DCD866117D75" name="Estudante">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:04 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Endereço" id="CC4FD0E1-DF43-0C91-F3E1-E6B056BC90D8">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:17 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="9A9E7DE9-DB5A-3A7A-314B-361A96CB603B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:06:10 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="910FAC11-EFC7-1FC0-1452-9A32BFC4FEFC">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:06:28 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="D868D7CD-E153-1454-FAFF-FCCBC2191A0C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

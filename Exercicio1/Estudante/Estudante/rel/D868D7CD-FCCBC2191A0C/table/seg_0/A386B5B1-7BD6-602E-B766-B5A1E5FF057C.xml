@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A386B5B1-7BD6-602E-B766-B5A1E5FF057C" name="Estudante">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:13:09 UTC</createdTime>
+<generatorID>2E44FC78-8171-C644-E65B-DCD866117D75</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Endereço" id="D01AC14E-F6CF-9DA2-924B-C2489A95EAC3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:13:09 UTC</createdTime>
+<generatorID>CC4FD0E1-DF43-0C91-F3E1-E6B056BC90D8</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="F1869271-5AC0-EEA0-D400-0F601DE41725">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:13:09 UTC</createdTime>
+<generatorID>9A9E7DE9-DB5A-3A7A-314B-361A96CB603B</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="49B53708-5668-087D-4D51-5385F68013C2">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:13:09 UTC</createdTime>
+<generatorID>910FAC11-EFC7-1FC0-1452-9A32BFC4FEFC</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

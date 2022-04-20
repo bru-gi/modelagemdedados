@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9FB8EB7-EA8A-5BD4-E6AE-B459EB4F31B3" name="Aeroporto">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:07:14 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="D8BEBA11-F5EB-E235-B6A3-C50F34F59583">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:10:23 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidade" id="7FEDD59C-BF35-659D-1FA2-9D6E292C46D9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:10:54 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="52C8ACEE-CB05-C310-4F79-3A9A799D72C2">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:11:39 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodAereo" id="98E5F968-6A1D-82BA-79CB-4BCAA416E573">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:12:09 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

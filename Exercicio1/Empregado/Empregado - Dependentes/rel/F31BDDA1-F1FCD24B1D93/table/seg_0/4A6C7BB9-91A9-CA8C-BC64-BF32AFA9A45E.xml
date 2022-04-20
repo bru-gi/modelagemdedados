@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A6C7BB9-91A9-CA8C-BC64-BF32AFA9A45E" name="Empregado">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>5E27A115-B101-A4EF-57EB-FE3AA898B360</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empregado" id="0D910A00-B71A-F1D4-D59C-5F9A54C99C2A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>BD198BB3-4D41-6603-B2C6-A6D617F0605E</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empregado_ID" id="9C0BE5AB-9D15-91A7-30C6-81B6202EB508">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39F1A06F-41C7-DD83-615D-C5F9F3145360" name="Empregado_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9C0BE5AB-9D15-91A7-30C6-81B6202EB508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

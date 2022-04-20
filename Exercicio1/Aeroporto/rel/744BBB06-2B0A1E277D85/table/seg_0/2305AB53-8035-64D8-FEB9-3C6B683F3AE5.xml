@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2305AB53-8035-64D8-FEB9-3C6B683F3AE5" name="Aeroporto">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>D9FB8EB7-EA8A-5BD4-E6AE-B459EB4F31B3</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="2383887B-EC71-3857-E856-01BA46425137">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>D8BEBA11-F5EB-E235-B6A3-C50F34F59583</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade" id="7C73A634-3B78-1D5D-0029-AC8AFE6AE6CD">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>7FEDD59C-BF35-659D-1FA2-9D6E292C46D9</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="669E4A8F-D233-DBF2-89C7-10F7B25AC6E5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>52C8ACEE-CB05-C310-4F79-3A9A799D72C2</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodAereo" id="B1BADDD0-D0FE-08A3-B3DD-696004EA745B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:26:54 UTC</createdTime>
+<generatorID>98E5F968-6A1D-82BA-79CB-4BCAA416E573</generatorID>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

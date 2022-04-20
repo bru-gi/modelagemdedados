@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A7E6F52-B41C-69FB-D511-B0149DD2009D" name="Tipo de avião">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:14:49 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome tipo" id="485B5B5B-D816-600A-B17D-476478AE95CE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:16:12 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Empresa" id="8200F469-5AD1-F9F8-2976-3FE5A30D81C2">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:18:40 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Configurações" id="627F8ED0-392D-1FEB-432D-B19917EEC437">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:19:27 UTC</createdTime>
+<ownerDesignName>Aeroporto</ownerDesignName>
+<engineerTo>
+<item key="744BBB06-9EAA-5705-C0DC-2B0A1E277D85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5A609E-3C29-8A07-BDE3-DD24E9663B6D" name="Dependentes">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>1D0818D3-A8C9-D749-B754-83DED5C47DCD</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dependentes" id="64FCC1CD-8049-C335-1708-B4D77B94C6F4">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>A04A5387-01FC-8088-904A-CA76AF4F7CD3</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome_dependente" id="0CD752DA-1B87-F0C0-731C-E07A1F509AE5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>72797D76-8114-BD6D-F311-C6BC609F0FA8</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="1F9A36C6-E020-7207-C802-6D04CF804C2A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>4081074A-07D4-F212-7499-7FE50F039D83</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_de_Nascimento" id="B3A1C1BA-922C-7C52-94AE-A226C1EBE991">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>C88FA3BC-40E5-F551-E650-2165E8140130</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parentesco" id="C385C785-A151-C1D1-0078-638A00B9E968">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>C7DE80DF-CB92-0EBB-9820-335E583016B4</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empregado_Empregado_ID" id="82B7A551-54DA-D120-DF8B-65966527B436">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D63B6BD9-8B05-CEC9-AC81-366198DC76FD" referredColumn="9C0BE5AB-9D15-91A7-30C6-81B6202EB508"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC288AA5-A57E-B41F-F95F-C49323A2ACE6" name="Dependentes_Empregado_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:00 UTC</createdTime>
+<generatorID>3069BF6C-F4EA-961E-439D-EA1119909768</generatorID>
+<ownerDesignName>Empregado - Dependentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82B7A551-54DA-D120-DF8B-65966527B436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
